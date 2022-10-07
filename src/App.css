@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 425px){
+  .App {
+    text-align: center;
+  }
+  .display-container{
+    max-width: 500px;
+  }
+}

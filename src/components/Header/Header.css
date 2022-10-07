@@ -1,0 +1,96 @@
+.navigation{
+    height: 80px;
+    background: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.navigation a{
+    color: #FFFFFF;
+    margin-left: 36px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navigation a:hover{
+    color: rgb(255, 212, 55);
+    background:rgb(0, 103, 103);
+    font-size: large;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1200px){
+    .navigation{
+        height: 80px;
+        background: #1C2B35;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 140px;
+        padding-right: 140px;
+        width: 1200px;
+    }
+    .navigation a{
+        color: #FFFFFF;
+        margin-left: 36px;
+        text-decoration: none;
+        font-size: 17px;
+    
+    }
+    .navigation a:hover{
+        color: rgb(255, 212, 55);
+        background:rgb(0, 103, 103);
+        font-size: large;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 600px){
+	.navigation{
+        height: 80px;
+        background: #1C2B35;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 140px;
+        padding-right: 140px;
+        width: 600px;
+    }
+    .navigation a{
+        color: #FFFFFF;
+        margin-left: 36px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navigation a:hover{
+        color: rgb(255, 212, 55);
+        background:rgb(0, 103, 103);
+        font-size: large;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 425px){
+	.navigation{
+        height: 80px;
+        background: #1C2B35;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 140px;
+        padding-right: 140px;
+        width: 380px;
+    }
+    .navigation a{
+        color: #FFFFFF;
+        /* margin-left: 36px; */
+        text-decoration: none;
+        font-size: 17px;
+    
+    }
+    .navigation a:hover{
+        color: rgb(255, 212, 55);
+        background:rgb(0, 103, 103);
+        font-size: large;
+        border-radius: 5px;
+    }
+}
