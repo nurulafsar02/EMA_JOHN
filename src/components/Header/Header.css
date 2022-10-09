@@ -7,6 +7,7 @@
     padding-left: 140px;
     padding-right: 140px;
 }
+
 .navigation a{
     color: #FFFFFF;
     margin-left: 36px;
@@ -20,6 +21,7 @@
     font-size: large;
     border-radius: 5px;
 }
+
 @media only screen and (max-width: 1200px){
     .navigation{
         height: 80px;
@@ -44,6 +46,7 @@
         font-size: large;
         border-radius: 5px;
     }
+    
 }
 @media only screen and (max-width: 600px){
 	.navigation{
@@ -68,6 +71,7 @@
         font-size: large;
         border-radius: 5px;
     }
+    
 }
 @media only screen and (max-width: 425px){
 	.navigation{
@@ -93,4 +97,5 @@
         font-size: large;
         border-radius: 5px;
     }
+    
 }
